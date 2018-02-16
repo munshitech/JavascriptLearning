@@ -1,0 +1,11 @@
+var ShapeFactory = require('./ShapeFactory');
+var shape = ShapeFactory.getShape("Circle");
+shape.draw();
+shape = ShapeFactory.getShape("Triangle");
+shape.draw();
+shape = ShapeFactory.getShape("Square");
+shape.draw();
+shape = ShapeFactory.getShape("Rectangle");
+shape.draw();
+shape = ShapeFactory.getShape("Circle");
+shape.draw();
