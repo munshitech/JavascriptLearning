@@ -7,5 +7,5 @@ shape = ShapeFactory.getShape("Square");
 shape.draw();
 shape = ShapeFactory.getShape("Rectangle");
 shape.draw();
-shape = ShapeFactory.getShape("Circle");
+shape = ShapeFactory.getShape("Circles");
 shape.draw();
