@@ -1,0 +1,9 @@
+{
+  "name": "java-script-design-patterns",
+  "version": "0.0.0",
+  "description": "JavaScriptDesignPatterns",
+  "main": "app.js",
+  "author": {
+    "name": "Mehreen"
+  }
+}
