@@ -28,6 +28,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\task.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="General\app.js" />
     <Compile Include="Creational Patterns\FactoryPattern\ShapeFactory\Main.js" />
     <Compile Include="Creational Patterns\FactoryPattern\ShapeFactory\ShapeFactory.js" />
@@ -52,6 +55,7 @@
     <Folder Include="Creational Patterns\FactoryPattern\ShapeFactory\" />
     <Folder Include="General\" />
     <Folder Include="Creational Patterns\" />
+    <Folder Include="Behavioral Patterns\" />
     <Folder Include="Structural Patterns\" />
     <Folder Include="Structural Patterns\Decorator Pattern\" />
     <Folder Include="Structural Patterns\Facade Pattern\" />
