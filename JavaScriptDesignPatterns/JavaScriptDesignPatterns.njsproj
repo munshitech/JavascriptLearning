@@ -4,6 +4,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>JavaScriptDesignPatterns</Name>
     <RootNamespace>JavaScriptDesignPatterns</RootNamespace>
+    <NodeExePath>C:\development\tools\nodejs\node.exe</NodeExePath>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -11,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39963004-ea67-477a-91a0-e29ebe2a439f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Structural Patterns\Facade\task.js</StartupFile>
+    <StartupFile>Behaviour Patterns\Mediator\main.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -28,6 +29,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Behaviour Patterns\Observer\Main.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behaviour Patterns\Mediator\main.js" />
+    <Compile Include="Behaviour Patterns\Mediator\task.js" />
+    <Compile Include="Behaviour Patterns\Observer\task.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="General\app.js" />
     <Compile Include="Creational Patterns\FactoryPattern\ShapeFactory\Main.js" />
     <Compile Include="Creational Patterns\FactoryPattern\ShapeFactory\ShapeFactory.js" />
@@ -48,10 +57,13 @@
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Behaviour Patterns\Mediator\" />
+    <Folder Include="Behaviour Patterns\Observer\" />
     <Folder Include="Creational Patterns\FactoryPattern\" />
     <Folder Include="Creational Patterns\FactoryPattern\ShapeFactory\" />
     <Folder Include="General\" />
     <Folder Include="Creational Patterns\" />
+    <Folder Include="Behaviour Patterns\" />
     <Folder Include="Structural Patterns\" />
     <Folder Include="Structural Patterns\Decorator Pattern\" />
     <Folder Include="Structural Patterns\Facade Pattern\" />
